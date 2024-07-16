@@ -42,7 +42,7 @@ const DateTime = () => {
         <div className="datetime">
             <div className="time">
                 <span>{timeString}</span>
-                <span style={{'font-size': "0.9rem", marginLeft : "0.5ch"}}>{ampm}</span>
+                <span style={{'font-size': "1rem", marginLeft : "0.5ch"}}>{ampm}</span>
             </div>
             <div className="dateText">{formattedDate}</div>
         </div>

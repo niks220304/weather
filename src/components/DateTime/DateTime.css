@@ -4,9 +4,13 @@
     align-items: end;
     flex-direction: column;
     width: max-content;
-    height: 52.67px;
+    height: 57px;
 }
 
 .datetime .time {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.dateText {
+    font-size: 1.1rem;
 }
