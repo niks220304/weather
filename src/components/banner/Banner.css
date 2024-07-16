@@ -40,3 +40,42 @@
 .banner .image img {
     width: 14rem;
 }
+
+@media (max-width: 800px) {
+    .banner {
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .banner .image img {
+        width: 11rem;
+    }
+
+    .banner .typography .status,
+    .banner .typography .minmax .label {
+        font-size: 1rem;
+    }
+
+    .banner .typography .temperature {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .banner {
+        padding: 1.2rem;
+    }
+
+    .banner .image img {
+        width: 10rem;
+    }
+
+    .banner .typography .status,
+    .banner .typography .minmax .label {
+        font-size: 0.9rem;
+    }
+
+    .banner .typography .temperature {
+        font-size: 3.6rem;
+    }
+}

@@ -59,3 +59,45 @@
     height: 1.2em;
     margin-right: 1rem;
 }
+
+@media (max-width: 800px) {
+    .info-card .icon {
+        font-size: 2.1rem;
+    }
+
+    .info-card .value {
+        font-size: 1.4rem;
+    }
+
+    .time-card .sun-icon {
+        height: 1.2em;
+        margin-right: 1rem;
+    }
+
+    .time-card .time {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .info-card {
+        padding: 0.6rem;
+    }
+
+    .info-card .icon {
+        font-size: 1.6rem;
+    }
+
+    .info-card .value {
+        font-size: 1.1rem;
+    }
+
+    .time-card .sun-icon {
+        height: 1.1em;
+        margin-right: 0.2rem;
+    }
+
+    .time-card .time {
+        font-size: 1.7rem;
+    }
+}

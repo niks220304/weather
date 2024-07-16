@@ -14,3 +14,9 @@
 .dateText {
     font-size: 1.1rem;
 }
+
+@media (max-width: 650px) {
+    .dateText {
+        font-size: 0.9rem;
+    }
+}

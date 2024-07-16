@@ -7,7 +7,7 @@
     background-color: var(--theme);
     width: max-content;
     border-radius: 17px;
-    padding: 3vh;
+    padding: 25px;
 }
 
 .locDate {
@@ -45,11 +45,6 @@
     gap: 1rem;
 }
 
-@media(max-width: 700px){
-
-}
-
-
 @media (max-width: 1100px) {
     .dashboard .mainside {
         flex-direction: column-reverse;
@@ -60,4 +55,14 @@
         justify-content: space-between;
     }
 
+    .dashboard {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .dashboard {
+        padding: 25px 13px;
+        border-radius: 10px;
+    }
 }
